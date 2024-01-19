@@ -1,0 +1,1 @@
+See our new shiny documentation [here](https://saocodon.github.io/game-wiki) ✨
