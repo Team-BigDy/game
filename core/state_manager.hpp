@@ -1,7 +1,5 @@
 #pragma once
 
-#include "const.hpp"
-
 /*
 NOTE:
 The term "playing" represents the scene when the game is 'actually played' (not the starting menu scene, for instance).

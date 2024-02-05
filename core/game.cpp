@@ -1,5 +1,6 @@
 #include "game.hpp"
-#include <iostream>
+#include "texture_manager.hpp"
+#include "components.hpp"
 
 Coordinator game_manager;
 

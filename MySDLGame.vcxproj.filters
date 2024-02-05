@@ -24,30 +24,54 @@
     <ClCompile Include="sys\keyboard_system.hpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="core\ecs\component_array.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ecs\component_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ecs\coordinator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ecs\entity_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\ecs\system_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="core\texture_manager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\animation_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\keyboard_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sys\movement_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="core\component_array.hpp">
+    <ClInclude Include="core\ecs\component_array.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="core\component_manager.hpp">
+    <ClInclude Include="core\ecs\component_manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="core\components.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="core\const.hpp">
+    <ClInclude Include="core\ecs\coordinator.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="core\coordinator.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="core\entity_manager.hpp">
+    <ClInclude Include="core\ecs\entity_manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="core\game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="core\system_manager.hpp">
+    <ClInclude Include="core\ecs\system_manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="core\texture_manager.hpp">
@@ -65,5 +89,13 @@
     <ClInclude Include="core\state_manager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="core\const.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core\ecs\coordinator.inl">
+      <Filter>Header Files</Filter>
+    </None>
   </ItemGroup>
 </Project>

@@ -1,13 +1,10 @@
 #pragma once
 
 #include <memory>
-// entity has already been included in 'coordinator.hpp'
-// Coordinator has already been included in 'object_system'
-// SDL has already been included in 'object_system'
 #include "../sys/movement_system.hpp"
 #include "../sys/animation_system.hpp"
 #include "../sys/keyboard_system.hpp"
-#include "texture_manager.hpp"
+#include "state_manager.hpp"
 
 class Game {
 

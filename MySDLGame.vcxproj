@@ -132,24 +132,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="core\ecs\component_array.cpp" />
+    <ClCompile Include="core\ecs\component_manager.cpp" />
+    <ClCompile Include="core\ecs\coordinator.cpp" />
+    <ClCompile Include="core\ecs\entity_manager.cpp" />
     <ClCompile Include="core\game.cpp" />
+    <ClCompile Include="core\ecs\system_manager.cpp" />
+    <ClCompile Include="core\texture_manager.cpp" />
+    <ClCompile Include="sys\animation_system.cpp" />
+    <ClCompile Include="sys\keyboard_system.cpp" />
     <ClCompile Include="sys\keyboard_system.hpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="sys\movement_system.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="core\components.hpp" />
-    <ClInclude Include="core\component_array.hpp" />
-    <ClInclude Include="core\component_manager.hpp" />
     <ClInclude Include="core\const.hpp" />
-    <ClInclude Include="core\coordinator.hpp" />
-    <ClInclude Include="core\entity_manager.hpp" />
+    <ClInclude Include="core\ecs\component_array.hpp" />
+    <ClInclude Include="core\ecs\component_manager.hpp" />
+    <ClInclude Include="core\ecs\coordinator.hpp" />
+    <ClInclude Include="core\ecs\entity_manager.hpp" />
     <ClInclude Include="core\game.hpp" />
     <ClInclude Include="core\state_manager.hpp" />
-    <ClInclude Include="core\system_manager.hpp" />
+    <ClInclude Include="core\ecs\system_manager.hpp" />
     <ClInclude Include="core\texture_manager.hpp" />
     <ClInclude Include="core\vec.hpp" />
     <ClInclude Include="sys\animation_system.hpp" />
     <ClInclude Include="sys\movement_system.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="core\ecs\coordinator.inl" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
